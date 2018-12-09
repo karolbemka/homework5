@@ -17,9 +17,9 @@ import java.time.LocalDateTime;
 import java.util.*;
 
 @WebServlet("/infoShareAcademy")
-public class TestServlet extends HttpServlet {
+public class infoShareAcademyServlet extends HttpServlet {
 
-    private static final String TEMPLATE_NAME = "test";
+    private static final String TEMPLATE_NAME = "infoshareacademy";
 
     @Inject
     private TemplateProvider templateProvider;
